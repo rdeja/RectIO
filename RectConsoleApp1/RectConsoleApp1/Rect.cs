@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RectConsoleApp1
 {
-    class Rect
+    public class Rect
     {
         private int w, h;
         public Rect(int w, int h)
