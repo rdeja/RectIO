@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1267
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectConsoleApp1", "RectConsoleApp1\RectConsoleApp1.csproj", "{FF60133D-0101-441D-9CFA-6740CFEDE9A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitRect", "XUnitRect\XUnitRect.csproj", "{58EABDB4-34DF-44CA-91E7-AF638A79F834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FF60133D-0101-441D-9CFA-6740CFEDE9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF60133D-0101-441D-9CFA-6740CFEDE9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF60133D-0101-441D-9CFA-6740CFEDE9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EABDB4-34DF-44CA-91E7-AF638A79F834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EABDB4-34DF-44CA-91E7-AF638A79F834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EABDB4-34DF-44CA-91E7-AF638A79F834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EABDB4-34DF-44CA-91E7-AF638A79F834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
