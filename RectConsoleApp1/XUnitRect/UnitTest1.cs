@@ -6,12 +6,14 @@ namespace XUnitRect
 {
     public class UnitTest1
     {
-        [Fact]
-        public void Test1()
+        [Theory]
+        [InlineData(2, 3, 6)]
+        [InlineData(-2, -3, 6)]
+        public void Test1(int w, int h, int result)
         {
-            Rect rect = new Rect(2, 3);
+            Rect rect = new Rect(w, h);
             var ret = rect.Area();
-            Assert.Equal(5, ret);
+            Assert.Equal(result, ret);
         }
     }
 }
