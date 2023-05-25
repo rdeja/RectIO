@@ -4,6 +4,7 @@ using RectConsoleApp1;
 
 namespace XUnitRect
 {
+    // my first unit test
     public class UnitTest1
     {
         [Theory]
