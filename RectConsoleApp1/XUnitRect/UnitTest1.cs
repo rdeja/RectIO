@@ -9,7 +9,7 @@ namespace XUnitRect
     {
         [Theory]
         [InlineData(2, 3, 6)]
-        [InlineData(-2, -3, 6)]
+        [InlineData(-2, -3, 5)]
         public void Test1(int w, int h, int result)
         {
             Rect rect = new Rect(w, h);
